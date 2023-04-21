@@ -1,7 +1,6 @@
 @use "../../variables" as *;
 
 .button {
-  //スタイル
   width: 200px;
   height: 55px;
   background: $black;
@@ -10,10 +9,9 @@
   align-items: center;
   color: $white;
   transition: ease 0.2s;
-  font-size: 14px;
+  font-size: $fontsize-s;
   text-decoration: none;
   &:hover {
-    //text-decoration: none;
     color: $white;
     background-color: $orange_bistre;
   }
